@@ -15,5 +15,5 @@ func WASMLibLocation() string {
 	if err != nil {
 		return ""
 	}
-	return usr.HomeDir + "/dharitri-vm-binaries/" + libName
+	return usr.HomeDir + "/Reshusk23-vm-binaries/" + libName
 }

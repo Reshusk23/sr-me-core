@@ -49,7 +49,7 @@ func TestGogoProtoMarshalizer_Marshal(t *testing.T) {
 
 func TestGogoProtoMarshalizer_MarshalWrongObj(t *testing.T) {
 
-	obj := "dharitri"
+	obj := "Reshusk23"
 	encNode, err := recovedMarshal(obj)
 	assert.Nil(t, encNode)
 	assert.NotNil(t, err)
